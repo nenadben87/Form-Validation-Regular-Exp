@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.invalid-name,
+.invalid-password,
+.invalid-zip,
+.invalid-email,
+.invalid-phone,
+.password-strength {
+  display: none;
+}
+
+ h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 1.5rem;
+}
+
+.form-group {
+ margin-bottom: 1.2rem;
+}
+
+.form input {
+  padding-top: 0.5rem;
+  border-radius: 5px;
+  width: 86vw;
+}
+
+form :nth-child(5) {
+  margin-bottom: 2rem;
+}
+
+.btn-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 1.3rem;
+  background-color: #35ad68;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  color: #ddd;
+  font-weight: bold;
+}
+
+.invalid-name,
+.invalid-password,
+.invalid-zip,
+.invalid-email,
+.invalid-phone {
+  color: red;
+}
+
+.password-strength {
+   margin-top: -2rem; 
+}
+
+.weak-password {
+  display: flex;
+  color: purple;
+}
+
+.weak-password-div {
+  width: 4rem;
+  height: 3px;
+  background-color: purple;
+}
+
+.medium-password {
+  display: flex;
+  color: #FF8000;
+}
+
+.medium-password-div {
+  width: 7rem;
+  height: 3px;
+  background-color: #FF8000;
+}
+
+.strong-password {
+  display: flex;
+  color: #80b900;
+}
+
+.strong-password-div {
+  width: 10rem;
+  height: 3px;
+  background-color: #80b900;
+}
+
+
+
+
+

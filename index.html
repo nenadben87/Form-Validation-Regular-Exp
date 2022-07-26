@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300&family=Lato:wght@300&family=Montserrat:wght@300&family=Nunito:wght@300&family=Open+Sans:wght@300;400&family=Source+Sans+Pro:wght@300;400&family=Staatliches&family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Form Validation | RE</title>
+</head>
+<body>
+   <div class="container">
+    <h1>User Form</h1>
+    <div class="form">
+      <form action="">
+        <div class="form-group">
+        <label for="name">Name</label> <br>
+        <input type="text" id="name" placeholder="Enter Name">
+        <div class="invalid-name">Please enter a name between 4 and 10 characters. Letters only!</div>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label> <br>
+          <input type="password" id="password" placeholder="Enter Password">
+          <div class="invalid-password">Please enter a password with at least 5 characters</div>
+          
+          <div class="strength-line"></div>
+          <div class="password-strength"></div>
+          </div>
+        <div class="form-group">
+          <label for="name">Zipcode</label> <br>
+          <input type="text" id="zipcode" placeholder="Enter Zip">
+          <div class="invalid-zip">Please enter a valid Zipcode</div>
+          </div>
+        <div class="form-group">
+          <label for="name">Email</label> <br>
+          <input type="text" id="email" placeholder="Enter Email">
+          <div class="invalid-email">Please enter a valid E-mail Address</div>
+          </div>
+        <div class="form-group">
+          <label for="name">Phone</label> <br>
+          <input type="text" id="phone" placeholder="Ente Phone No.">
+          <div class="invalid-phone">Please enter a valid Phone Number</div>
+          </div>
+          <a href="success.html" class="btn-submit">SUBMIT</a>
+      </form>
+    </div>
+   </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
